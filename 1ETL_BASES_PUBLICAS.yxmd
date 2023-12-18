@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1002" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Layout_Empresas.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CNPJ BÁSICO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="RAZÃO SOCIAL / NOME EMPRESARIAL" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="NATUREZA JURÍDICA" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="QUALIFICAÇÃO DO RESPONSÁVEL" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CAPITAL SOCIAL DA EMPRESA" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PORTE DA EMPRESA" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ENTE FEDERATIVO RESPONSÁVEL" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_Empresas.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas4.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="13846071" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="CESAR APARECIDO NICOLETI" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="18000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas4.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas5.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="18421571" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="MIRIAN DE SOUZA REIS DOS SANTOS" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="20000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas5.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1254" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas6.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="22967215" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="VIVIAN CRISTINA FARIAS DA SILVA 00903464403" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="5000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas6.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1326" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas7.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="27499609" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="ISMAEL COELHO DOS SANTOS 03077315297" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="1000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas7.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1398" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas8.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="32066832" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="JOSE ALIPIO GARCIA GOUVEA - ESPORTES" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="10000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas8.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1470" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas9.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="36627978" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="NATANE DOMINGOS 07586040923" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="1000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas9.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1554" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas0.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="41273597" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="PACHARRUS QUEIROZ DA COSTA E SILVA 03618384335" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="2135" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="50" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="5000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas0.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1626" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="00000000" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="BANCO DO BRASIL SA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="2038" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="10" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="120000000000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="05" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1698" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas2.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="04631961" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="ITACAMP INDUSTRIAL LTDA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="2062" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="0,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="1770" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>empresas3.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="09253556" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="BORGES E PIRETT LTDA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="2062" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="20000,00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="01" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+            <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\empresas3.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="462" y="1158" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="882" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CNPJ BÁSICO" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CNPJ BÁSICO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_CNPJ BÁSICO" selected="True" rename="Right_CNPJ BÁSICO" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="88" y="41" width="718" height="905" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Base de Sócios</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="113" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Layout_socios.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CNPJ BÁSICO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="IDENTIFICADOR DE SÓCIO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="NOME DO SÓCIO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="CNPJ/CPF DO SÓCIO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="QUALIFICAÇÃO DO SÓCIO" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="DATA DE ENTRADA SOCIEDADE" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="REPRESENTANTE LEGAL" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="NOME DO REPRESENTANTE" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="QUALIFICAÇÃO DO REPRESENTANTE LEGAL" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="FAIXA ETÁRIA" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\Layout_socios.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="402" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByPos</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="125" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios4.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="20729027" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="GISELE DE ALENCAR BATISTA ALMEIDA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="***162078**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="20140729" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+                <Field name="6" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios4.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios5.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="16780910" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="JOSE PINTO DE ARAUJO" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="***570784**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="22" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="20120828" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+                <Field name="9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios5.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="341" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios6.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="09104369" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="JOSE CARLOS DOS SANTOS JUNIOR" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="***228757**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="16" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="20070821" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+                <Field name="5" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios6.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios7.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="08060744" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="SIMONE CARLA MOSENA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="***836809**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="20060607" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+                <Field name="6" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios7.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios8.CSV</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="04966911" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="ELIZABETH IAGAME DE ONOFRE" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="***654488**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="20020326" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+                <Field name="7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios8.CSV" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios9.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="06268976" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="LEVI NANTES DE SANTIAGO" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="***431458**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="20190530" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+                <Field name="5" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios9.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="125" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios0.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="26049190" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="VINICIUS CORREA PEREIRA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="***846208**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="52" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="20160530" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+                <Field name="4" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios0.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios1.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="26049190" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="VINICIUS CORREA PEREIRA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="***846208**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="52" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="20160530" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+                <Field name="4" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios1.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios2.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="07396865" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="GERSON HOFFMANN" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="***240659**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="49" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="20050518" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+                <Field name="5" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios2.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>socios3.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="41827572" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="2" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="SILVIA CALDEIRA COSTA" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="***176226**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="22" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="20210505" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="Field_7" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="***000000**" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="Field_9" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="00" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+                <Field name="5" size="254" source="File: C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\1. Input\Receita Federal\socios3.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="690" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="19" MaxRecords="">C:\Users\mcaceres\OneDrive - Brookfield\0. Brookfield - Data Analytics\4. BD\3. Output\Sócios_RF.yxdb</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <NoSpatialIndex>False</NoSpatialIndex>
+                <SaveSource>True</SaveSource>
+                <WriteCompatibleVersion>False</WriteCompatibleVersion>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sócios_RF.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="498" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="5" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="570" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName />
+              <Language>English</Language>
+              <Format />
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Convert  From:
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="546" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Trim([DATA DE ENTRADA SOCIEDADE], &quot;4&quot;)" field="" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Trim([DATA DE ENTRADA SOCIEDADE], "4")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#12">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#9">
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#10">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#11">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#9">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#10">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#11">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>1ETL_BASES_PUBLICAS</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b96bb39b-2051-4440-8a63-36ff3fe93022" />
+      <Telemetry>
+        <PreviousWorkflowId value="439c8616-28cc-4238-9c7b-304ffa931203" />
+        <OriginWorkflowId value="439c8616-28cc-4238-9c7b-304ffa931203" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
